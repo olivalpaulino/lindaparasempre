@@ -1,0 +1,96 @@
+body {
+    background-color: #f8f9fa;
+}
+
+#logo {
+    width: 350px;
+}
+
+header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Helvetica Neue';
+    color: #c66436;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#menu ul {
+    text-align: center;
+    list-style: none;
+    display: flex;
+}
+
+#menu li {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #c66436;
+}
+
+.vitrine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 4px;
+    text-align: center;
+}
+
+.vestidos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    width: 150px;
+    height: 480px;
+}
+
+.vestidos-imagem {
+    width: 150px;
+    height: 300px;
+}
+
+.marca {
+    font-weight: bold;
+}
+
+.vestido-texto {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (min-width: 320px) and (max-width: 649px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo {
+        width: 150px;
+    }
+
+    #menu ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+  
